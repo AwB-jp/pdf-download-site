@@ -3,13 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PDF Download Page</title>
+    <title>Download PDF Files</title>
+    <style>
+        body {
+            font-family: "Garamond", serif; /* Updated to Garamond font */
+            margin: 20px;
+            background-color: #82c267; /* Updated background color */
+        }
+        h1 {
+            color: #fff;
+            text-align: center;
+        }
+        h2 {
+            color: #fff;
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        h3 {
+            color: #fff;
+            text-align: center;
+            font-size: 18px; /* Smaller font size for the subheading */
+            margin-bottom: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+            display: block;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        a:hover {
+            color: darkblue;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        p {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>Download PDFs</h1>
-    <ul>
-        <li><a href="files/sample1.pdf" download>Download Sample PDF 1</a></li>
-        <li><a href="files/sample2.pdf" download>Download Sample PDF 2</a></li>
-    </ul>
+    <h2>教材関係</h2> <!-- Japanese Header "教材関係" -->
+    <h3>教材をここからダウンロードしてください！何か改善点などがあれば一声ください！！</h3> <!-- Subheading with smaller font -->
+    <div class="container">
+        <h1>Download PDF Files</h1>
+        <p>Click the links below to download the PDF files:</p>
+        <a href="pdfs/Lesson_plans.pdf" download>Download Lesson Plans</a>
+        <a href="pdfs/Hiragana_practice.pdf" download>Download Hiragana Practice</a>
+        <a href="pdfs/Hiragana_chart.pdf" download>Download Hiragana Chart</a>
+    </div>
 </body>
 </html>
